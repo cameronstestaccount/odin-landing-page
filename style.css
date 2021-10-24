@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*maybe change later */
+body>div {
+    flex: 1 1 auto;
+}
+
+/*
+=======================================================================================
+*/
+
+.header {
+    padding: 0 15%;
+    height: 40px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.head-logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+/*
+========================================================================================
+*/
+
+.hero>* {
+    flex: 1 1 0;
+}
+
+.hero {
+    flex: 0 0 auto;
+    padding: 80px 15%;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    gap: 30px;
+}
+
+.left-hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.left-hero .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-hero .sign-up-btn {
+    padding: 6px 22px;
+    margin-top: 15px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 600;
+}
+
+.left-hero .sign-up-btn:hover {
+    background-color: hsl(217, 63%, 35%);
+}
+
+.right-hero {
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+========================================================================================
+*/
+
+.info {
+    padding: 30px 15% 80px 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-area {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 60px;
+}
+
+.card {
+    /* border: 1px solid black; */
+    flex: 1 1 auto;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.square {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 180px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+}
+
+/*
+========================================================================================
+*/
+
+.quote {
+    background-color: #e5e7eb; 
+    padding: 70px 15%;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.attribution {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*
+========================================================================================
+*/
+
+.call-to-action {
+    padding: 80px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .container {
+    background-color: #3882f6;
+    padding: 30px 80px;
+    border-radius: 10px;
+    width: 100%;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cta-subtext {
+    font-size: 14px;
+}
+
+.call-to-action .sign-up-btn {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px 25px;
+    border: 1px solid #f9faf8;
+    background-color: #3882f6;
+    font-weight: 600;
+}
+
+/*
+========================================================================================
+*/
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
